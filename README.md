@@ -7,7 +7,9 @@
 
 ⚠️ **Be Careful:** This project is in early development and should be used for testing purposes only.
 
-Typescript implementation of Flexible Round-Optimized Schnorr Threshold Signatures (FROST).
+Typescript implementation of `Flexible Round Optimized Schnorr Threshold` (FROST) signatures.
+
+FROST is a threshold multisignature (`t-of-n`), so to create a valid signature you require `t` parties to individually sign and contribute signature shares. These signature shares are then combined into a single schnorr signature which is valid under the joint public key.
 
 ## Sponsors
 
@@ -45,6 +47,6 @@ p3.aggregate_shares([p1.shares![p3.index - 1], p2.shares![p3.index - 1]]);
 
 ## Learn about FROST
 
-[FROST Paper](https://eprint.iacr.org/2020/852.pdf)
-[Python Implementation](https://github.com/jesseposner/FROST-BIP340)
-[Podcast Episode](https://www.youtube.com/watch?v=8nuFt-1SWRI)
+- [FROST Paper](https://eprint.iacr.org/2020/852.pdf)
+- [Python Implementation](https://github.com/jesseposner/FROST-BIP340)
+- [Bitcoin.Review Episode](https://www.youtube.com/watch?v=8nuFt-1SWRI)
