@@ -32,17 +32,17 @@ const p1 = new Participant(1, 2, 3);
 const p2 = new Participant(2, 2, 3);
 const p3 = new Participant(3, 2, 3);
 
-p1.init_keygen();
-p2.init_keygen();
-p3.init_keygen();
+p1.initKeygen();
+p2.initKeygen();
+p3.initKeygen();
 
-p1.generate_shares();
-p2.generate_shares();
-p3.generate_shares();
+p1.generateShares();
+p2.generateShares();
+p3.generateShares();
 
-p1.aggregate_shares([p2.shares![p1.index - 1], p3.shares![p1.index - 1]]);
-p2.aggregate_shares([p1.shares![p2.index - 1], p3.shares![p2.index - 1]]);
-p3.aggregate_shares([p1.shares![p3.index - 1], p2.shares![p3.index - 1]]);
+p1.aggregateShares([p2.shares![p1.index - 1], p3.shares![p1.index - 1]]);
+p2.aggregateShares([p1.shares![p2.index - 1], p3.shares![p2.index - 1]]);
+p3.aggregateShares([p1.shares![p3.index - 1], p2.shares![p3.index - 1]]);
 ```
 
 ## Learn about FROST
