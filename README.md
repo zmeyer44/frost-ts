@@ -1,6 +1,6 @@
 # frost-ts
 
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/zmeyer44/frost-ts/node.js.yml)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/zmeyer44/frost-ts/main.yml)
 ![GitHub issues](https://img.shields.io/github/issues/zmeyer44/frost-ts)
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/zmeyer44/frost-ts)
 ![GitHub stars](https://img.shields.io/github/stars/zmeyer44/frost-ts)
@@ -13,7 +13,7 @@ FROST is a threshold multisignature (`t-of-n`), so to create a valid signature y
 
 ## Sponsors
 
-Sponsorship at any level is appreciated and encouraged. Currently this work is supported by [OpenSats](https://opensats.org).
+Sponsorship at any level is greatly appreciated. Currently this work is supported by [OpenSats](https://opensats.org).
 
 ## Usage
 
