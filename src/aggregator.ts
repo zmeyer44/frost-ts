@@ -1,19 +1,19 @@
 import { Point, G } from "./point";
 import { Q } from "./constants";
-import * as cryptoT from "crypto";
-let crypto: typeof cryptoT;
+import * as crypto from "crypto";
+// let crypto: typeof cryptoT;
 
-if (
-  typeof process !== "undefined" &&
-  process.versions &&
-  process.versions.node
-) {
-  // Node.js environment detected
-  crypto = require("crypto");
-} else {
-  // Browser environment, or crypto is already available globally
-  crypto = cryptoT;
-}
+// if (
+//   typeof process !== "undefined" &&
+//   process.versions &&
+//   process.versions.node
+// ) {
+//   // Node.js environment detected
+//   crypto = require("crypto");
+// } else {
+//   // Browser environment, or crypto is already available globally
+//   crypto = cryptoT;
+// }
 
 function sha256(data?: string) {
   if (data !== undefined) {
